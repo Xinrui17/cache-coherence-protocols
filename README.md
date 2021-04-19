@@ -1,4 +1,4 @@
-# Machine Problem 2
+# Machine Problem
 # Coherence Protocols
 
 
@@ -50,7 +50,7 @@ Do all the above experiments for MSI, MESI and Dragon protocols. For each simula
 1. In order to “make” your simulator, you need to execute the following command: (You may need to make changes to the Makefile, if you add your own files.)
  ```
 make clean; make; make clobber
-  ```
+ ```
 2. After making successfully, it should print out the following:
 ```
 ----------------------------------------------------------
@@ -58,7 +58,7 @@ make clean; make; make clobber
 ----------------------------------------------------------
 Compilation Done ---> nothing else to make :) 
 
-  ```
+```
 3. An executable called “smp_cache” should be created.
 4. In order to run your simulator, you need to execute the following command:
 ```
@@ -101,7 +101,7 @@ You are supposed to submit all your source files, a Makefile and a report. You n
 zip unityID.zip *.cc *.h Makefile report.pdf
 ```
  No folders are allowed in your zip file. We will test your project only on grendel `grendel.ece.ncsu.edu` machine, so make sure your project can be properly compiled (using make command) and run on grendel before submission.
- 
+
  ## Grading Policy
 Grade will be distributed as follows: 
 * 25%: MSI 
